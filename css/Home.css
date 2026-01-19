@@ -1,0 +1,362 @@
+:root{
+  --main-color: #9147ff;
+}
+
+.home-container-left {
+  background: transparent;
+  height: auto;
+  width: 75%;
+  float: left;
+}
+
+.home-container-left-top {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  padding-top: 1rem;
+  background-color: transparent;
+  float: left;
+}
+
+.add-task-btn {
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.add-task-btn-icon{
+  height: 50px;
+  width: 50px;
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  transition: 1s;
+  background: transparent;
+}
+
+.add-task-btn-icon:hover{
+  transform: rotate(180deg);
+}
+
+.note-form-close-icon{
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-right: -4.5rem;
+  margin-top: .5rem;
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  cursor: pointer;
+  background: #091921;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #22F2AA;
+  text-shadow: 0 0 10px #22F2AA;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.fix{
+  background: rgb(202, 12, 255);
+}
+
+.add{
+  background: rgba(93, 12, 255, 1);
+}
+
+.note{
+  background: rgb(142, 12, 255);
+}
+
+.task-icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+/*   background: rgba(93, 12, 255, 1); */
+}
+
+.task-delete-icon {
+  color: #22F2AA;
+  text-shadow: 0 0 10px #22F2AA;
+  transition: 350ms;
+/*   background: rgba(93, 12, 255, 1); */
+}
+
+.task-delete-icon:hover{
+transform: scale(1.2);
+}
+
+.task-edit-icon {
+  margin-right: 5px;
+  color: #22F2AA;
+  transition: 1s;
+  text-shadow: 0 0 10px #22F2AA;
+  /* background: rgba(93, 12, 255, 1); */
+}
+
+.ul-home{
+  background: #091921;
+}
+
+.task-edit-icon:hover{
+  transform: scale(1.2);
+}
+
+.task-text {
+  
+}
+
+.home-container-right {
+  height: 400px;
+  width: 25%;
+  float: right;
+  text-align: center;
+  border-left: 1px solid var(--main-color);
+  background: transparent;
+}
+
+.home-container-right-top {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  padding-top: 1rem;
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  float: right;
+  background: transparent;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.stats-refresh-button {
+  border: 1px solid var(--main-color);
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 0 0 10px var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+}
+
+.stats-refresh-button:hover {
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.stats {
+  text-shadow: 0 0 10px var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+  margin-bottom: .5rem;
+}
+
+.stats-header {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.popup {
+  height: auto;
+  width: 400px;
+  background: #091921;
+  position: absolute;
+  z-index: 100;
+  border-radius: 25px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
+  border: 1px solid var(--main-color);
+  visibility: hidden;
+}
+
+.popup-text {
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  text-align: center;
+  margin-top: 1rem;
+  background: none;
+}
+
+.center-popup {
+  justify-content: center;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.popup-button {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  background: #091921;
+}
+
+.note-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.note-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  height: 500px;
+  width: 500px;
+  border-radius: 25px;
+  border: 1px solid var(--main-color);
+  background: #091921;
+  position: absolute;
+  z-index: 100;
+}
+
+.note-checkbox-label {
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+}
+
+.note-btn {
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  display: flex;
+  justify-content: center;
+  background: #091921;
+}
+
+
+.note-radio {
+  margin: 1rem;
+}
+
+.note-header {
+  margin-top: 1rem;
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  text-align: center;
+  background: #091921;
+}
+
+.task-input {
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 332px;
+  height: 50px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background: #091921;
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+}
+
+.form-element {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.form-element input {
+  display: none;
+}
+
+.form-element label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+  border: 2px solid var(--main-color);
+  background: #5d0cff;
+  box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  border-radius: 5px;
+}
+
+.form-element .note-icon {
+  margin-top: 10px;
+  font-size: 30px;
+  background: #5d0cff;
+  color: var(--main-color);
+  transition: all 200ms ease-in-out;
+}
+
+.form-element {
+  font-size: 15px;
+  color: var(--main-color);
+  padding: 5px 0px;
+  background: #091921;
+  transition: all 200ms ease-in-out;
+}
+
+.form-element label:before {
+  content: "✓";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 10px;
+  left: 8px;
+  background: #0d0df1;
+  color: var(--main-color);
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 200ms ease-in-out;
+}
+
+.note-icons{
+  background-color: #5d0cff;
+}
+
+.form-element input:checked+label:before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.form-element input:checked+label .note-icon {
+  color: #22f2a9ad;
+}
+
+.form-element input:checked+label .title {
+  color: #22f2a9ad;
+}
+
+.form-element input:checked+label {
+  border: 2px solid #22f2a9ad;
+}
+
+.note-checkbox-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: #091921;
+}

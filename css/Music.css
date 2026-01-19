@@ -1,0 +1,614 @@
+.album-container{
+    height: 60px;
+    width: 100%;
+    background-color: #050f15;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    z-index: 9;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.album-container:hover{
+    background-color: #113648;
+}
+
+.header-bar{
+    width: 100%;
+    text-align: center;
+}
+
+.header-bar-1{
+    width: 40%;
+    float: left;
+}
+
+.header-bar-2{
+    width: 20%;
+    float: left;
+}
+
+.header-bar-3{
+    width: 40%;
+    float: left;
+}
+
+.header-bar-4{
+    width: 20%;
+    float: left;
+}
+
+.music-header-filler{
+    width: 100%;
+    height: 40px;
+    background-color: #050f15;
+    text-align: center;
+}
+
+.music-queue-search{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: #050f15;
+    border: none;
+    outline: none;
+    border-radius: 0%;
+    padding-left: 1rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.song-feat{
+    font-size: 10px;
+}
+
+.songs-container{
+    height: 60px;
+    width: 100%;
+    background-color: #050f15;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    z-index: 9;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.songs-container:hover{
+    background-color: #113648;
+}
+
+.queue-container{
+    height: 60px;
+    width: 100%;
+    background-color: #091921;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    z-index: 9;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+}
+
+.queue-container-playing{
+    background-color: #113648;
+    height: 60px;
+    width: 100%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    z-index: 9;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+}
+
+
+.queue-container:hover{
+    background-color: #113648;
+}
+
+.music-page-songs-button{
+    width: 40%;
+}
+
+.song-cover{
+    height: 60px;
+    width: 60px;
+    margin-right: .5rem;
+    float: left;
+}
+
+.song-name{
+    padding-top: .5rem; 
+    font-size: 16px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.song-artist{
+    font-size: 12px;
+}
+
+.song-year{
+    float: right;
+}
+
+.song-play-button{
+    right: 0%;
+    float: right;
+    margin-right: 5rem;
+    margin-top: -2rem;
+}
+
+.song-clear-from-queue-button{
+    font-size: 25px;
+    right: 0%;
+    float: right;
+    margin-right: 1rem;
+    margin-top: -1.5rem;
+}
+
+.song-clear-from-queue-button:hover{
+    color: #9147ff;
+}
+
+.artist-bar{
+    height: calc(90vh - 60px);
+    width: 20%;
+    background-color: #050f15;
+    float: left;
+}
+.music-page-artist-button{
+    background-color: #0d3244;
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: #fff;
+    padding-top: .4rem;
+    cursor: default;
+}
+
+.music-page-songs-button{
+    background-color: #0d3244;
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: #fff;
+}
+
+.album-bar{
+    height: calc(90vh - 60px);
+    overflow: auto;
+    width: 40%;
+    background-color: #050f15;
+    float: left;
+}
+
+.songs-bar{
+    height: calc(90vh - 60px);
+    width: 40%;
+    overflow: auto;
+    background-color: #091921;
+    float: left;
+    color: #fff;
+}
+
+.playlist-bar{
+    height: calc(90vh - 60px);
+    width: 20%;
+    background-color: #050f15;
+    float: right;
+}
+
+.queue-index-number{
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    padding-top: 1.3rem;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.music-search{
+    width: 100%;
+    height: 40px;
+    background-color: #050f15;
+    border: none;
+    outline: none;
+    border-radius: 0%;
+    padding-left: 1rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.music-page-buttons{
+    width: 50%;
+    height: 30px;
+    background-color: #0d3244;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.music-page-buttons-active{
+    background-color: transparent;
+}
+
+.album-cover{
+    height: 60px;
+    width: 60px;
+    margin-right: .5rem;
+    float: left;
+}
+
+.album-name{
+    padding-top: .5rem;  
+}
+
+.album-year{
+    float: right;
+}
+
+.music-player-bar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #0d3244;
+    bottom:0%;
+}
+
+.music-player-bar-right{
+    width: 25%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.queue-buttons-icons{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.queue-buttons-icons-active{
+    color: #9147ff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.queue-buttons-icons-small{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: .2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    float: left;
+}
+
+.queue-buttons-icons-clear{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    float: right;
+}
+
+.music-player-bar-middle{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.music-player-bar-left{
+    width: 25%;
+    height: 100%;
+    float: right;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.now-playing-picture{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: .5rem;
+}
+
+.now-playing-artist{
+    font-size: 14px
+}
+
+.now-playing-feat{
+   font-size: 12px
+}
+
+.now-playing-song{
+    margin-top: .5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+
+.now-playing-icons{
+    color: #fff;
+    font-size: 30px;
+    margin-top: .5rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.now-playing-icons:hover{
+    color: #9147ff;
+}
+
+.now-playing-icons-active{
+    color: #9147ff;
+    font-size: 30px;
+    margin-top: .5rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.music-slider{
+    width: 80%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: #191414;
+    outline: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.music-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #1DB954;
+    border: 4px solid #040306;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+.music-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #1DB954;
+    border: 4px solid #040306;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+.music-current-time{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1rem;
+}
+
+.music-total-time{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.music-volume-slider{
+    margin-top: 2.5rem;
+    width: 50%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: #191414;
+    outline: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.music-volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #1DB954;
+    border: 4px solid #040306;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+.music-volume-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #1DB954;
+    border: 4px solid #040306;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+.music-volume-icon{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 1rem;
+    margin-bottom: -.6rem;
+    cursor: pointer;
+}
+
+.music-volume-icon:hover{
+    color: #9147ff;
+}
+
+.discoball-container {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 48%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.discoball-container.visible {
+    top: -80px; /* Adjust this value based on your design */
+    opacity: 1;
+    pointer-events: none; 
+    scale: .8;
+}
+
+.dancers-container {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+    
+}
+  
+.dancers-container.visible {
+    top: 565px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: .5;
+    pointer-events: none; 
+}
+
+.dancers-container1 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 35%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container1.visible {
+    top: 570px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: .5;
+    pointer-events: none; 
+}
+
+.dancers-container2 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 24%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container2.visible {
+    top: 670px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: .5;
+    pointer-events: none; 
+}
+
+.dancers-container3 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 73%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container3.visible {
+    top: 740px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: 1;
+    pointer-events: none; 
+}
+
+.dancers-container4 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 80%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container4.visible {
+    top: 490px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: .5;
+    pointer-events: none; 
+}
+
+
+.dancers-container5 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 6%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container5.visible {
+    top: 535px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: 1;
+    pointer-events: none; 
+}
+
+.dancers-container6 {
+    position: absolute;
+    top: -100px; /* Start above the screen */
+    left: 15%;
+    transform: translateX(-50%);
+    transition: top 3s ease; /* Adjust the duration as needed */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+  
+.dancers-container6.visible {
+    top: 530px; /* Adjust this value based on your design */
+    opacity: 1;
+    scale: .8;
+    pointer-events: none; 
+}
+
+.confetti-container{
+    position: absolute;
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; 
+}
+
+.confetti-container.visible{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    opacity: 1;
+    pointer-events: none; 
+}
+
+.confetti-container img {
+    width: 100%;
+}

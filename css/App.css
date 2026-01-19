@@ -1,0 +1,60 @@
+:root{
+  --main-color: #9147ff;
+}
+
+.profile-title{
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  text-align: center;
+
+}
+
+.profile-user{
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color);
+  text-align: center;
+}
+
+.img-center{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-img{
+  height: 200px;
+  float: left;
+  width: 200px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 25px;
+  box-shadow: 0 0 10px var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.profile-img:hover{
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.password-container{
+display: flex;
+justify-content: center;
+}
+
+.password-input{
+  color: var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+  border: 1px solid var(--main-color);
+  font-size: 15px;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 25px;
+  outline: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  background: transparent;
+}

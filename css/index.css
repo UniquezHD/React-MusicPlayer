@@ -1,0 +1,46 @@
+:root {
+  --green-color: #22F2AA;
+  --green-shadow: 0 0 10px #22F2AA;
+  --darkgreen-color: rgba(4, 180, 127, 0.226);
+  --purple-color: rgba(164, 7, 255, 0.753);
+  --bgcolor: #2b2b2b;
+  --bgcolor2nd: #1b1b1b;
+
+  --bg1: url("https://media3.giphy.com/media/yPzJdJ11dAkgbYbjsi/giphy.gif?cid=ecf05e473d08h0jnwxirxg9ew1q9sf1xgseen6zxahqqecyy&ep=v1_gifs_gifId&rid=giphy.gif&ct=g");
+  --bg2: url("https://media4.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e47sl98xp06yfzhctdpfedyt7sr6ayy039yxl656vd9&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  --bg3: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM1Y2wwdGU4NzQzNHZlajVtZzlsdXp1ZWMycDB2N2tndWhzMGkzOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ec5iuhc2aM9o3uK64q/giphy.gif");
+  --bg4: url("https://cache.teia.rocks/ipfs/bafybeicass6d3ftqyfigxciwfysnzm4aobfjuk4zvtueenvqqpjo3p75ju");
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10rem #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #5b0ed8 0%, #4400ff 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-position: center; */
+ /*  background-repeat: no-repeat;
+  background-color: #091921;
+  background-size: cover; */
+  
+  /* background-image: var(--bg4); */
+
+}
+
+body{
+  image-rendering: -webkit-optimize-contrast;
+  background-repeat: no-repeat;
+  background-color: #091921;
+  background-size: cover;
+  background-image: var(--bg1);
+}
